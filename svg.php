@@ -26,6 +26,10 @@
                             <div>SVG Text Art</div>
                         </div>
                     </a>
+                         <div class="ctn" style="display:none;">
+                            <div><h2>LT 6.1 Element 1</h2></a></div>
+                            <div>SVG Text Art</div>
+                        </div>
                 </div>
         </div>
     </body>
