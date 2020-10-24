@@ -182,7 +182,7 @@ header{
 }
 .ctn:hover {
     background-color: rgba(255, 192, 203);
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 .link-btn{
     list-style-type: none;
