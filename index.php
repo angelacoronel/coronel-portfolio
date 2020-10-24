@@ -63,7 +63,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
             
         </div>
         <div class="socmed">
-            <a href="https://github.com/angelacoronel/coronel-portfolio/" target="blank" class="right">
+            <a href="https://github.com/angelacoronel/coronel-portfolio/" target="blank">
                 <div class="logo-github-small">
                     <div class="ear-one-left"></div>
                     <div class="ear-one-none"></div>
