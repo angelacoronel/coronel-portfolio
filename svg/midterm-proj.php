@@ -415,85 +415,85 @@
     </head>
     <body>
         <div class="container">
-            <object type="image/svg+xml" data="svg/cloud1.svg" class="cloud1">
+            <object type="image/svg+xml" data="svgfiles/cloud1.svg" class="cloud1">
             </object>
-            <object type="image/svg+xml" data="svg/cloud2.svg" class="cloud2">
+            <object type="image/svg+xml" data="svgfiles/cloud2.svg" class="cloud2">
             </object>
-            <object type="image/svg+xml" data="svg/cloud3.svg" class="cloud3">
+            <object type="image/svg+xml" data="svgfiles/cloud3.svg" class="cloud3">
             </object>
-            <object type="image/svg+xml" data="svg/human.svg" class="human">
+            <object type="image/svg+xml" data="svgfiles/human.svg" class="human">
             </object>
-            <object type="image/svg+xml" data="svg/grass.svg" class="grass">
+            <object type="image/svg+xml" data="svgfiles/grass.svg" class="grass">
             </object>
             <div class="logo-ctn">
-                <object type="image/svg+xml" data="svg/logo.svg" class="logo">
+                <object type="image/svg+xml" data="svgfiles/logo.svg" class="logo">
                 </object>
             </div>           
-            <object type="image/svg+xml" data="svg/fences.svg" class="fences">
+            <object type="image/svg+xml" data="svgfiles/fences.svg" class="fences">
             </object>
-            <object type="image/svg+xml" data="svg/bushes.svg" class="bushes">
+            <object type="image/svg+xml" data="svgfiles/bushes.svg" class="bushes">
             </object>
-            <object type="image/svg+xml" data="svg/butterfly.svg" class="f">
+            <object type="image/svg+xml" data="svgfiles/butterfly.svg" class="f">
             </object>
-            <object type="image/svg+xml" data="svg/butterfly.svg" class="f2">
+            <object type="image/svg+xml" data="svgfiles/butterfly.svg" class="f2">
             </object>
             <div class="flowers">
                 <div>             
-                    <object type="image/svg+xml" data="svg/sunflowers.svg" class="sun">
+                    <object type="image/svg+xml" data="svgfiles/sunflowers.svg" class="sun">
                     </object>
-                    <object type="image/svg+xml" data="svg/sun_info.svg" class="suninfo">
+                    <object type="image/svg+xml" data="svgfiles/sun_info.svg" class="suninfo">
                     </object>
                 </div> 
                 <div>
-                    <object type="image/svg+xml" data="svg/carnations.svg" class="carn">
+                    <object type="image/svg+xml" data="svgfiles/carnations.svg" class="carn">
                     </object>
-                    <object type="image/svg+xml" data="svg/carn_info.svg" class="carninfo">
+                    <object type="image/svg+xml" data="svgfiles/carn_info.svg" class="carninfo">
                     </object>
                 </div>  
                 <div>
-                    <object type="image/svg+xml" data="svg/irises.svg" class="iris">
+                    <object type="image/svg+xml" data="svgfiles/irises.svg" class="iris">
                     </object>
-                    <object type="image/svg+xml" data="svg/iris_info.svg" class="irisinfo">
-                    </object>
-                </div>
-                <div>
-                    <object type="image/svg+xml" data="svg/roses.svg" class="rose">
-                    </object>
-                    <object type="image/svg+xml" data="svg/rose_info.svg" class="roseinfo">
+                    <object type="image/svg+xml" data="svgfiles/iris_info.svg" class="irisinfo">
                     </object>
                 </div>
                 <div>
-                    <object type="image/svg+xml" data="svg/orchids.svg" class="orchid">
+                    <object type="image/svg+xml" data="svgfiles/roses.svg" class="rose">
                     </object>
-                    <object type="image/svg+xml" data="svg/orchid_info.svg" class="orchidinfo">
-                    </object>
-                </div>
-                <div>
-                    <object type="image/svg+xml" data="svg/peonies.svg" class="peony">
-                    </object>
-                    <object type="image/svg+xml" data="svg/peony_info.svg" class="peonyinfo">
+                    <object type="image/svg+xml" data="svgfiles/rose_info.svg" class="roseinfo">
                     </object>
                 </div>
                 <div>
-                    <object type="image/svg+xml" data="svg/dahlias.svg" class="dahlia">
+                    <object type="image/svg+xml" data="svgfiles/orchids.svg" class="orchid">
                     </object>
-                    <object type="image/svg+xml" data="svg/dahlia_info.svg" class="dahliainfo">
-                    </object>
-                </div>
-                <div>
-                    <object type="image/svg+xml" data="svg/lilies.svg" class="lily">
-                    </object>
-                    <object type="image/svg+xml" data="svg/lily_info.svg" class="lilyinfo">
+                    <object type="image/svg+xml" data="svgfiles/orchid_info.svg" class="orchidinfo">
                     </object>
                 </div>
                 <div>
-                    <object type="image/svg+xml" data="svg/tulips.svg" class="tulip">
+                    <object type="image/svg+xml" data="svgfiles/peonies.svg" class="peony">
                     </object>
-                    <object type="image/svg+xml" data="svg/tulip_info.svg" class="tulipinfo">
+                    <object type="image/svg+xml" data="svgfiles/peony_info.svg" class="peonyinfo">
+                    </object>
+                </div>
+                <div>
+                    <object type="image/svg+xml" data="svgfiles/dahlias.svg" class="dahlia">
+                    </object>
+                    <object type="image/svg+xml" data="svgfiles/dahlia_info.svg" class="dahliainfo">
+                    </object>
+                </div>
+                <div>
+                    <object type="image/svg+xml" data="svgfiles/lilies.svg" class="lily">
+                    </object>
+                    <object type="image/svg+xml" data="svgfiles/lily_info.svg" class="lilyinfo">
+                    </object>
+                </div>
+                <div>
+                    <object type="image/svg+xml" data="svgfiles/tulips.svg" class="tulip">
+                    </object>
+                    <object type="image/svg+xml" data="svgfiles/tulip_info.svg" class="tulipinfo">
                     </object>
                 </div>
             </div>
-            <object type="image/svg+xml" data="svg/frontbushes.svg" class="frontbushes">
+            <object type="image/svg+xml" data="svgfiles/frontbushes.svg" class="frontbushes">
             </object>
             
         </div>
