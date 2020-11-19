@@ -26,10 +26,12 @@
                             <div>SVG Text Art</div>
                         </div>
                     </a>
-                         <div class="ctn" href="svg/midterm-proj.php">
+                    <a target="blank" href="svg/midterm-proj.php">
+                         <div class="ctn">
                             <div><h2>Midterm Project</h2></a></div>
                             <div>Pure SVG Website</div>
                         </div>
+                     </a>
                 </div>
         </div>
     </body>
