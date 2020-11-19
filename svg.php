@@ -26,9 +26,9 @@
                             <div>SVG Text Art</div>
                         </div>
                     </a>
-                         <div class="ctn" style="display:none;">
-                            <div><h2>LT 6.1 Element 1</h2></a></div>
-                            <div>SVG Text Art</div>
+                         <div class="ctn" href="svg/midterm-proj.php">
+                            <div><h2>Midterm Project</h2></a></div>
+                            <div>Pure SVG Website</div>
                         </div>
                 </div>
         </div>
