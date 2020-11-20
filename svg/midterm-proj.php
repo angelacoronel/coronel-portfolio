@@ -7,7 +7,6 @@
                 margin: 0;
                 background-color: #fff;
                 overflow-x: hidden;
-                max-height: 900px;
             }
             .cloud1{
                 position: absolute;
