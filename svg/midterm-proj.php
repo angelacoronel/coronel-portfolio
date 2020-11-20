@@ -279,7 +279,7 @@
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(1);
+                transform: translate(-300px, 330px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .orchid:hover + .orchidinfo{
@@ -298,7 +298,7 @@
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(1);
+                transform: translate(-300px, 330px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .peony:hover + .peonyinfo{
@@ -317,7 +317,7 @@
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(1);
+                transform: translate(-300px, 330px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .lily:hover + .lilyinfo{
@@ -336,7 +336,7 @@
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(1);
+                transform: translate(-300px, 330px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .tulip:hover + .tulipinfo{
