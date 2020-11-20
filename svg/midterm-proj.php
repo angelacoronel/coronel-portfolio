@@ -25,11 +25,11 @@
             }
             @keyframes cloud1{ 
                 0% {
-                    transform: translateX(-700px);
+                    transform: translateX(-1140px);
                     opacity: 0%
                 }
                 1% {
-                    transform: translateX(-680px);
+                    transform: translateX(-980px);
                     opacity: 40%
                 }
                 70% {
@@ -37,17 +37,17 @@
                     opacity: 60%
                 } 
                 100% {
-                    transform: translateX(900px);
+                    transform: translateX(1100px);
                     opacity: 0
                 } 
             }
             @keyframes cloud2{ 
                 0% {
-                    transform: translate(-700px, 70px);
+                    transform: translate(-1140px, 70px);
                     opacity: 0%
                 }
                 1% {
-                    transform: translate(-680px, 70px);
+                    transform: translate(-980px, 70px);
                     opacity: 50%
                 }
                 70% {
@@ -55,17 +55,17 @@
                     opacity: 70%
                 } 
                 100% {
-                    transform: translate(900px, 70px);
+                    transform: translate(1100px, 70px);
                     opacity: 0
                 } 
             }
             @keyframes cloud3{ 
                 0% {
-                    transform: translate(-700px, 50px);
+                    transform: translate(-1140px, 50px);
                     opacity: 0%
                 }
                 1% {
-                    transform: translate(-680px, 50px);
+                    transform: translate(-980px, 50px);
                     opacity: 50%
                 }
                 80% {
@@ -73,7 +73,7 @@
                     opacity: 70%
                 } 
                 100% {
-                    transform: translate(900px, 50px);
+                    transform: translate(1100px, 50px);
                     opacity: 0
                 } 
             }
@@ -81,7 +81,13 @@
                 position: absolute;
                 top: 0;
                 margin-bottom: 0;
-                transform: translate(0px, 650px) scale(1.1);
+                transform: translate(-100px, 680px) scale(1.4);
+            }
+            .grass2{
+                position: absolute;
+                top: 0;
+                margin-bottom: 0;
+                transform: translate(100px, 680px) scale(1.4);
             }
             .sky{
                 position: absolute;
@@ -115,7 +121,7 @@
                 width: 542px;
                 height: 301px;
                 opacity: 1;
-                transform: translateX(30px);
+                transform: translateX(20px)scale(1.2);
                 animation: all 1s ease-in-out 1s;
             }
             .flowers{
@@ -123,53 +129,57 @@
             }
             .human{
                 position: absolute;
-                transform: translate(30px,175px) scale(0.7);
+                transform: translate(30px,175px) scale(0.8);
                 animation: human 50s ease-in infinite 6s;
                 opacity: 0;
             }
             @keyframes human{
                 0%{
-                    transform: translate(700px, 175px) scale(0.7);
+                    transform: translate(940px, 175px) scale(0.8);
                     opacity: 0;
                 }
                 10%{
                     opacity: 1;
                 }
                 50%{
-                    transform: translate(-700px, 195px) scale(0.7);
+                    transform: translate(-1000px, 195px) scale(0.8);
                     opacity: 1;
                 }
                 55%{
-                    transform: translate(-710px, 175px) scale(0.7);
+                    transform: translate(-1000px, 175px) scale(0.8);
                     opacity: 1;
                 }
                 56%{
-                    transform: translate(-710px, 175px) scale(0.7);
+                    transform: translate(-1000px, 175px) scale(0.8);
                     opacity: 0;
                 }
                 100%{
-                    transform: translate(-710px, 175px) scale(0.7);
+                    transform: translate(-1000px, 175px) scale(0.8);
                     opacity: 0;
                 }
             }
             .fences{
                 position: absolute;
-                transform: translate(0px, 540px) scale(1.1);
+                transform: translate(-275px, 540px) scale(1.1);
+            }
+            .fences2{
+                position: absolute;
+                transform: translate(300px, 540px) scale(1.1);
             }
             /*flowers*/
             .carn{
                 position: absolute;
-                transform: translate(-660px, 610px) scale(1.1);
+                transform: translate(-660px, 640px) scale(1.25);
                 transition: all ease-in-out 0.5s;
             }
             .carn:hover{
-                transform: translate(-660px, 610px) scale(1.2);
+                transform: translate(-660px, 640px) scale(1.4);
             }
             .carninfo{
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(0.9);
+                transform: translate(-300px, 260px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .carn:hover + .carninfo{
@@ -178,17 +188,17 @@
             }
             .iris{
                 position: absolute;
-                transform: translate(-500px, 725px) scale(1.1);
+                transform: translate(-500px, 745px) scale(1.25);
                 transition: all ease-in-out 0.5s;
             }
             .iris:hover{
-                transform: translate(-500px, 725px) scale(1.2);
+                transform: translate(-500px, 745px) scale(1.4);
             }
             .irisinfo{
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(0.9);
+                transform: translate(-300px, 260px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .iris:hover + .irisinfo{
@@ -197,17 +207,17 @@
             }
             .sun{
                 position: absolute;
-                transform: translate(-470px, 610px) scale(1.1);
+                transform: translate(-470px, 640px) scale(1.25);
                 transition: all ease-in-out 0.5s;
             }
             .sun:hover{
-                transform: translate(-470px, 610px) scale(1.2);
+                transform: translate(-470px, 640px) scale(1.4);
             }
             .suninfo{
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(0.9);
+                transform: translate(-300px, 260px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .sun:hover + .suninfo{
@@ -216,17 +226,17 @@
             }
             .rose{
                 position: absolute;
-                transform: translate(-300px, 665px) scale(1.1);
+                transform: translate(-300px, 695px) scale(1.25);
                 transition: all ease-in-out 0.5s;
             }
             .rose:hover{
-                transform: translate(-300px, 665px) scale(1.2);
+                transform: translate(-300px, 695px) scale(1.4);
             }
             .roseinfo{
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(0.9);
+                transform: translate(-300px, 260px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .rose:hover + .roseinfo{
@@ -235,17 +245,17 @@
             }
             .dahlia{
                 position: absolute;
-                transform: translate(-130px, 690px) scale(1.1);
+                transform: translate(-130px, 720px) scale(1.25);
                 transition: all ease-in-out 0.5s;
             }
             .dahlia:hover{
-                transform: translate(-130px, 690px) scale(1.2);
+                transform: translate(-130px, 720px) scale(1.4);
             }
             .dahliainfo{
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(0.9);
+                transform: translate(-300px, 260px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .dahlia:hover + .dahliainfo{
@@ -254,17 +264,17 @@
             }
             .orchid{
                 position: absolute;
-                transform: translate(-60px, 519px) scale(1.1);
+                transform: translate(-60px, 529px) scale(1.25);
                 transition: all ease-in-out 0.5s;
             }
             .orchid:hover{
-                transform: translate(-60px, 505px) scale(1.2);
+                transform: translate(-60px, 529px) scale(1.4);
             }
             .orchidinfo{
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(0.9);
+                transform: translate(-300px, 260px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .orchid:hover + .orchidinfo{
@@ -273,17 +283,17 @@
             }
             .peony{
                 position: absolute;
-                transform: translate(160px, 630px) scale(1.1);
+                transform: translate(160px, 660px) scale(1.25);
                 transition: all ease-in-out 0.5s;
             }
             .peony:hover{
-                transform: translate(160px, 625px) scale(1.2);
+                transform: translate(160px, 655px) scale(1.4);
             }
             .peonyinfo{
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(0.9);
+                transform: translate(-300px, 260px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .peony:hover + .peonyinfo{
@@ -292,17 +302,17 @@
             }
             .lily{
                 position: absolute;
-                transform: translate(300px, 530px) scale(1.1);
+                transform: translate(300px, 560px) scale(1.25);
                 transition: all ease-in-out 0.5s;
             }
             .lily:hover{
-                transform: translate(300px, 510px) scale(1.2);
+                transform: translate(300px, 540px) scale(1.4);
             }
             .lilyinfo{
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(0.9);
+                transform: translate(-300px, 260px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .lily:hover + .lilyinfo{
@@ -311,17 +321,17 @@
             }
             .tulip{
                 position: absolute;
-                transform: translate(460px, 635px) scale(1.1);
+                transform: translate(460px, 665px) scale(1.25);
                 transition: all ease-in-out 0.5s;
             }
             .tulip:hover{
-                transform: translate(460px, 620px) scale(1.2);
+                transform: translate(460px, 650px) scale(1.4);
             }
             .tulipinfo{
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(0.9);
+                transform: translate(-300px, 260px) scale(1);
                 transition: opacity ease-in-out 0.5s;
             }
             .tulip:hover + .tulipinfo{
@@ -333,10 +343,21 @@
                 transform: translate(0px, 610px) scale(1.1);
                 overflow-x: hidden;
             }
+            .bushes2{
+                position: absolute;
+                transform: scaleX(-1)translate(350px, 610px) scale(1.1);
+                overflow-x: hidden;
+            }
+            .bushes3{
+                position: absolute;
+                transform: scaleX(-1)translate(-700px, 610px) scale(1.1);
+                overflow-x: hidden;
+            }
             .frontbushes{
                 position: absolute;
-                transform: translate(0px, 800px) scale(1.1);
+                transform: translate(0px, 845px) scale(1.6);
             }
+
             .f2{
                 filter: hue-rotate(180deg);
                 position: absolute;
@@ -346,31 +367,31 @@
             }
             @keyframes but{
                 0%{
-                    transform: translate(700px, 550px) scale(0.7);
+                    transform: translate(940px, 550px) scale(0.75);
                     opacity: 1;
                 }
                 5%{
-                    transform: translate(500px, 500px) scale(0.7);
+                    transform: translate(500px, 500px) scale(0.75);
                 }
                 20%{
-                    transform: translate(100px, 450px) scale(0.7);
+                    transform: translate(100px, 450px) scale(0.75);
                 }
                 25%{
-                    transform: translate(0px, 510px) scale(0.7);
+                    transform: translate(0px, 510px) scale(0.75);
                 }
                 40%{
-                    transform: translate(-300px, 600px) scale(0.7);
+                    transform: translate(-300px, 600px) scale(0.75);
                 }
                55%{
-                    transform: translate(-700px, 540px) scale(0.7);
+                    transform: translate(-1100px, 540px) scale(0.75);
                     opacity: 1;
                 }
                 56%{
-                    transform: translate(-700px, 500px) scale(0.7);
+                    transform: translate(-1100px, 500px) scale(0.75);
                     opacity: 0;
                 }
                 100%{
-                    transform: translate(-700px, 200px) scale(0.7);
+                    transform: translate(-1100px, 200px) scale(0.75);
                     opacity: 0;
                 }
             }
@@ -382,31 +403,31 @@
             }
             @keyframes bu{
                 0%{
-                    transform: translate(700px, 300px) scale(0.7);
+                    transform: translate(940px, 300px) scale(0.75);
                     opacity: 1;
                 }
                 5%{
-                    transform: translate(500px, 500px) scale(0.7);
+                    transform: translate(500px, 500px) scale(0.75);
                 }
                 20%{
-                    transform: translate(100px, 450px) scale(0.7);
+                    transform: translate(100px, 450px) scale(0.75);
                 }
                 25%{
-                    transform: translate(0px, 510px) scale(0.7);
+                    transform: translate(0px, 510px) scale(0.75);
                 }
                 40%{
-                    transform: translate(-300px, 300px) scale(0.7);
+                    transform: translate(-300px, 300px) scale(0.75);
                 }
                55%{
-                    transform: translate(-700px, 200px) scale(0.7);
+                    transform: translate(-1100px, 200px) scale(0.75);
                     opacity: 1;
                 }
                 56%{
-                    transform: translate(-700px, 200px) scale(0.7);
+                    transform: translate(-1100px, 200px) scale(0.75);
                     opacity: 0;
                 }
                 100%{
-                    transform: translate(-700px, 200px) scale(0.7);
+                    transform: translate(-1100px, 200px) scale(0.75);
                     opacity: 0;
                 }
             }
@@ -425,17 +446,21 @@
             </object>
             <object type="image/svg+xml" data="svgfiles/grass.svg" class="grass">
             </object>
+            <object type="image/svg+xml" data="svgfiles/grass.svg" class="grass2">
+            </object>
             <div class="logo-ctn">
                 <object type="image/svg+xml" data="svgfiles/logo.svg" class="logo">
                 </object>
             </div>           
             <object type="image/svg+xml" data="svgfiles/fences.svg" class="fences">
             </object>
+            <object type="image/svg+xml" data="svgfiles/fences.svg" class="fences2">
+            </object>
             <object type="image/svg+xml" data="svgfiles/bushes.svg" class="bushes">
             </object>
-            <object type="image/svg+xml" data="svgfiles/butterfly.svg" class="f">
+            <object type="image/svg+xml" data="svgfiles/bushes.svg" class="bushes2">
             </object>
-            <object type="image/svg+xml" data="svgfiles/butterfly.svg" class="f2">
+            <object type="image/svg+xml" data="svgfiles/bushes2.svg" class="bushes3">
             </object>
             <div class="flowers">
                 <div>             
@@ -492,9 +517,14 @@
                     <object type="image/svg+xml" data="svgfiles/tulip_info.svg" class="tulipinfo">
                     </object>
                 </div>
+                <object type="image/svg+xml" data="svgfiles/butterfly.svg" class="f">
+            </object>
+            <object type="image/svg+xml" data="svgfiles/butterfly.svg" class="f2">
+            </object>
             </div>
             <object type="image/svg+xml" data="svgfiles/frontbushes.svg" class="frontbushes">
             </object>
+
             
         </div>
 
