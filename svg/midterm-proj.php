@@ -108,7 +108,7 @@
                 right: 5px;
                 left: 0px;
                 top: 0px ;
-                bottom: 0px;
+                bottom: 0;
             }
             .logo-ctn{
                 display: flex;
@@ -179,8 +179,9 @@
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(1);
+                transform: translate(-300px, 330px) scale(1);
                 transition: opacity ease-in-out 0.5s;
+                z-index: 1;
             }
             .carn:hover + .carninfo{
                 visibility: visible;
@@ -198,8 +199,9 @@
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(1);
+                transform: translate(-300px, 330px) scale(1);
                 transition: opacity ease-in-out 0.5s;
+                z-index: 1;
             }
             .iris:hover + .irisinfo{
                 visibility: visible;
@@ -217,8 +219,9 @@
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(1);
+                transform: translate(-300px, 330px) scale(1);
                 transition: opacity ease-in-out 0.5s;
+                z-index: 1;
             }
             .sun:hover + .suninfo{
                 visibility: visible;
@@ -236,8 +239,9 @@
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(1);
+                transform: translate(-300px, 330px) scale(1);
                 transition: opacity ease-in-out 0.5s;
+                z-index: 1;
             }
             .rose:hover + .roseinfo{
                 visibility: visible;
@@ -255,8 +259,9 @@
                 position: absolute;
                 opacity: 0%;
                 visibility: none;
-                transform: translate(-300px, 260px) scale(1);
+                transform: translate(-300px, 330px) scale(1);
                 transition: opacity ease-in-out 0.5s;
+                z-index: 1;
             }
             .dahlia:hover + .dahliainfo{
                 visibility: visible;
@@ -431,7 +436,6 @@
                     opacity: 0;
                 }
             }
-
         </style>
     </head>
     <body>
@@ -524,7 +528,6 @@
             </div>
             <object type="image/svg+xml" data="svgfiles/frontbushes.svg" class="frontbushes">
             </object>
-
             
         </div>
 
