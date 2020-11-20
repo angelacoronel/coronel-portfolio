@@ -1,5 +1,27 @@
-<svg width="235"  style="cursor: pointer;" height="252" viewBox="0 0 235 252" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="tulip" width="235"  style="cursor: pointer;" height="252" viewBox="0 0 235 252" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <a target="blank" href="https://www.floom.com/tulip-flower-delivery">
+<style>
+            #tulips{
+                animation: tulips 50s linear infinite normal forwards 3s;
+            }
+            @keyframes tulips{ 
+                0% {
+                    transform: translateX(0px) rotate(0deg);
+                }
+                30% {
+                    transform: translateX(5px)rotate(3deg);
+                }
+                50% {
+                    transform: translateX(-5px)rotate(-5deg);
+                } 
+                70% {
+                    transform: translateX(5px)rotate(3deg);
+                } 
+                100% {
+                    transform: translateX(0px)rotate(0deg);
+                } 
+            }
+</style>
 <g clip-path="url(#clip0)">
 <g clip-path="url(#clip1)">
 <rect x="33.8918" y="-18.2345" width="180.591" height="246.116" transform="rotate(7.04797 33.8918 -18.2345)" fill="url(#pattern0)"/>
