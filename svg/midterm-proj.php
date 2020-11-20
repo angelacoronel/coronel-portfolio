@@ -101,7 +101,6 @@
                 overflow-x: hidden;
                 width: 100vw;
                 height: 100vh;
-                max-height: 900px;
                 position: relative;
                 display: flex;
                 flex-direction: row;
