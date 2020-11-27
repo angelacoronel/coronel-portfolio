@@ -56,11 +56,11 @@
     </body>
 </html>
 
-    <script type="text/javascript" src="mushroom.js"></script>
-    <script type="text/javascript" src="star.js"></script>
-    <script type="text/javascript" src="coin.js"></script>
-    <script type="text/javascript" src="key.js"></script>
-    <script type="text/javascript" src="flower.js"></script>
-    <script type="text/javascript" src="gem.js"></script>
-    <script type="text/javascript" src="bulletbill.js"></script>
-    <script type="text/javascript" src="bomb.js"></script>
+    <script type="text/javascript" src="canvasfiles/mushroom.js"></script>
+    <script type="text/javascript" src="canvasfiles/star.js"></script>
+    <script type="text/javascript" src="canvasfiles/coin.js"></script>
+    <script type="text/javascript" src="canvasfiles/key.js"></script>
+    <script type="text/javascript" src="canvasfiles/flower.js"></script>
+    <script type="text/javascript" src="canvasfiles/gem.js"></script>
+    <script type="text/javascript" src="canvasfiles/bulletbill.js"></script>
+    <script type="text/javascript" src="canvasfiles/bomb.js"></script>
