@@ -14,6 +14,12 @@
                     </a>
                 </div>
                 <div class="c2">
+                    <a target="blank" href="canvas/canvas_1.php">
+                        <div class="ctn">
+                            <div><h2>Canvas</h2></a></div>
+                            <div>Graphical elements</div>
+                        </div>
+                    </a>
                 </div>
         </div>
     </body>
