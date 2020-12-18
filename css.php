@@ -1,6 +1,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css" />
+        <style>
+            body{
+                font-size: 18px;
+                font-family: 'Roboto', sans-serif;
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+                height: 100vh;
+                overflow-x: hidden;
+                background: linear-gradient(-45deg, #1B0F36, #E6BA1E, #1B0F36, #E6BA1E);
+            background-size: 400% 400%;
+                animation: gradient 30s ease infinite;
+            }
+        </style>
     </head>
     <body>
         <div id="content-header2">CSS Works</div>

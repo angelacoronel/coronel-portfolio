@@ -9,12 +9,36 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <style>
+            .circle{
+                position: absolute;
+                transform: translate(30px, 150px);
+            }
+            .logo{
+                position: absolute;
+                height: 16px;
+            }
+            #square{
+                flex-direction: row;
+                position: relative;
+                transform: translate(420px, 290px);
+                background-color: white;
+            }  
+            .logo2{
+                position: relative;
+                transform: translateX(-70px)scale(0.7);
+                right: 0;
+            }
+        </style>
     </head>
     <body>
+        
         <header>
+            
             <div class="header-wrap stretch space-between">
                 <div class="title">
-                    <div style="color: #d3d3d3;">ANGELA</div> <div style="color: black;">CORONEL</div>
+                <object type="image/svg+xml" data="logo.svg" class="logo">
+                 </object>
                 </div>
                 <div>
                     <ul class="nav-links">
@@ -36,9 +60,11 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                     </ul>
                 </div>
             </div>
+            
         </header>
+        
         <div id="content-wrapper">
-            <?php
+        <?php
                 switch ($page) { 
                     case 'home':
                         require_once('home.php');
@@ -60,10 +86,9 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                         break;
                 }
             ?>
-            
         </div>
         <div class="socmed">
-            <a href="https://github.com/angelacoronel/coronel-portfolio/" target="blank">
+            <a href="https://github.com/angelacoronel/coronel-portfolio/" target="blank" class="right">
                 <div class="logo-github-small">
                     <div class="ear-one-left"></div>
                     <div class="ear-one-none"></div>
@@ -87,6 +112,11 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                     <div class="chin-right"></div>
                 </div>
             </a>
-        </div>
+        </div>        
     </body>
 </html>
+<script>
+ $(document).ready(function(){
+    $(window).scrollTop(0);
+});
+</script>

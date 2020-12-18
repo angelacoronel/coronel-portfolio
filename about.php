@@ -2,8 +2,26 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css" />
+        <style>
+        .circles{
+            position:fixed;
+            top:0;
+            left: 0;
+            width:100%;
+            z-index:-1;
+            }
+        .content-header, content-desc{
+            text-align: left !;
+        }
+        </style>
+    </head>
     </head>
     <body>
+            <header>         
+                <object type="image/svg+xml" data="circle.svg" class="circles">
+                </object>
+            </header>
+    
             <div class="hero-content">
                 <div id="content-header">
                     About Me
@@ -13,6 +31,6 @@
                     Check out my sample school works here.
                 </div>
             </div>
-        </div>
+        
     </body>
 </html>
